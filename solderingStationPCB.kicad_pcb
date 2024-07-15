@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240617)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "8.99")
+	(generator_version "8.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -41,7 +41,6 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(tenting front back)
 		(aux_axis_origin 54.47 78.19)
 		(grid_origin 54.47 78.19)
 		(pcbplotparams
@@ -56,6 +55,7 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
+			(viasonmask no)
 			(mode 1)
 			(useauxorigin yes)
 			(hpglpennumber 1)
@@ -63,7 +63,6 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
-			(pdf_metadata yes)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
@@ -74,7 +73,6 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(plotpadnumbers no)
 			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
@@ -216,7 +214,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0340dc3b-d147-4e89-9ede-a1d41941d351")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -529,7 +527,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/a79b55ec-f1a9-48e8-84f5-36aae94649d1")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -744,7 +742,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/f661f46c-4ef7-4cde-bb3a-1d3fddee7e83")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
@@ -852,7 +850,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/bde914f7-2145-47cd-8cb1-703532499c7d")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1066,7 +1064,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/506e1d3e-da4b-45a3-bf96-8d170d27a2d8")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1280,7 +1278,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/c0e5389e-cf51-48f2-8530-dd03c3930f1c")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1496,7 +1494,7 @@
 		)
 		(property ki_fp_filters "CONN_B2B-XH-A_JST")
 		(path "/599c3948-fad1-4976-bb03-237dcdd041ec")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1725,7 +1723,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c9553fd6-1231-4d8c-b4d8-640ef1663217")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1939,7 +1937,7 @@
 		)
 		(property ki_fp_filters "SOT?223*TabPin2* TO?220* TO?263*")
 		(path "/5d1aa8d8-a6e9-4153-9040-bfb7ef245cfa")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2217,7 +2215,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8c37d959-5713-42b9-99fd-c0ca095bacf9")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2431,7 +2429,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/481cb2c2-7774-4907-8998-a503e1fbd65c")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2645,7 +2643,7 @@
 		)
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/54a9fd28-af13-4c4e-9abe-22af22f3e9cc")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2941,7 +2939,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/25548faf-44e7-475c-8996-2574c746c0dc")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3155,7 +3153,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/32ab0994-3f50-4e38-aeb9-0de8e54addc6")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3369,7 +3367,7 @@
 		)
 		(property ki_fp_filters "DBV0006A_N DBV0006A_M DBV0006A_L")
 		(path "/404d6db7-62dc-48a8-83c1-5aacfa41a83d")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3657,7 +3655,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/694b2123-c413-44ff-8716-2913b8911c77")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3961,7 +3959,7 @@
 			)
 		)
 		(path "/385f0275-aa54-4c1c-bb14-f93dcc797ba5")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4239,7 +4237,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/443234ca-2cf0-4255-847e-44d057fb6445")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5122,7 +5120,7 @@
 		)
 		(property ki_fp_filters "CONN_B2B-ZRLFSN_JST")
 		(path "/2b62a6a5-deb9-4fec-b948-2e2089684733")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5350,7 +5348,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f5012299-f76c-409e-890c-61cdb7630487")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5563,7 +5561,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/93c7b2c8-c000-4f3d-bd81-8e9b291a9961")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5777,7 +5775,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c79250f7-17a8-49a3-97a9-4f3744890b0a")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6024,7 +6022,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/69861b80-411c-4f47-88b9-220ac375ed1c")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6238,7 +6236,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b80ff216-572e-4686-a1c6-dd8c50e641c1")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6452,7 +6450,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/d3ddfedc-a318-411e-895d-462948660f5a")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6666,7 +6664,7 @@
 		)
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/ce437560-0acc-4fc4-b67c-cb9f4d394170")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6962,7 +6960,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/db8a5dab-fa9a-4817-a879-12ec9232fe27")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7176,7 +7174,7 @@
 		)
 		(property ki_fp_filters "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*")
 		(path "/d88352a9-2afd-487f-909b-3c0f5f9a56c8")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7391,7 +7389,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/81924ff0-4b10-4ab1-a3f0-ccb12d99c38a")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7639,7 +7637,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6e05a8de-c755-4f3c-8f62-2fa48f384afc")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7887,7 +7885,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c7fa189b-c137-45bd-8352-6c892d9f64d5")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8134,7 +8132,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/c3dfd136-78b0-409d-bc99-79960af8abb7")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8348,7 +8346,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00a0fa59-70c5-4fc6-952d-e4804b81f555")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8562,7 +8560,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ea1458a6-342f-4704-9254-f75fbda2e3ad")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8777,7 +8775,7 @@
 		)
 		(property ki_fp_filters "PB-09N23P-03Q_MAL")
 		(path "/ad827e32-6a50-42b4-9b4d-11f5eaac5e27")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9027,7 +9025,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/857e6101-f38b-400c-a273-d22cb520098c")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9241,7 +9239,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/0acceb95-1258-4e3b-9565-8e9ae359d7ef")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9456,7 +9454,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/cd715e5d-6712-4f63-894c-bee06503e7ea")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
@@ -9565,7 +9563,7 @@
 		)
 		(property ki_fp_filters "IND_042068_WRE")
 		(path "/e1e1ea20-cb71-45d5-8718-b70adc121602")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9928,7 +9926,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/0ed62175-b029-4ac0-a87a-849c88760451")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10142,7 +10140,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/f993a7ab-463e-4e9d-8c6c-d996d9434ac2")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10357,7 +10355,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/c3c981b3-da69-4aa7-b591-4c6192c3d61e")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
@@ -10465,7 +10463,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/685a95cb-4c03-4cff-bfe2-a6476107d78a")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10679,7 +10677,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/a4d080d3-ef0a-48a3-bac5-b7c4f74eed11")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10893,7 +10891,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/c641df83-463a-4ab9-84a6-8161dc57605d")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11107,7 +11105,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/aca04593-9726-4885-930c-251364cc549d")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11383,7 +11381,7 @@
 			)
 		)
 		(path "/f83d0660-c53b-47a8-b6cb-54670dd1590c")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11663,7 +11661,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cefdbe54-be5a-4db4-8f09-4e6160808fc5")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11910,7 +11908,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/30190e75-3b56-4571-b952-fd132653ea0d")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12124,7 +12122,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/d47ab611-5cb6-48ff-a037-d355a3734ba7")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12338,7 +12336,7 @@
 		)
 		(property ki_fp_filters "LQFP*7x7mm*P0.5mm*")
 		(path "/b05619ca-599d-4dcb-8be2-fe0bb4e47e3e")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13285,7 +13283,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/d53ad0d6-d0af-4f59-972f-87c29fc77ddf")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13572,7 +13570,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/3eb421f6-d1f2-4ca9-99fa-01dfc074333d")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13787,7 +13785,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fc57e8ca-cac0-4940-9f5f-6a62ebae15f6")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14035,7 +14033,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2aefc3d0-7a95-45b0-8023-5da96b810396")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14326,7 +14324,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/1470e767-23e7-49d0-aae8-2dcf184e150d")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14540,7 +14538,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6253b0f6-c673-430d-8b0e-8ecdafe912eb")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14754,7 +14752,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e1550a6d-44df-4f7d-a5d9-3a741c0116b4")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14968,7 +14966,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/27464147-6eb4-4215-9530-8a53abaa482a")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15182,7 +15180,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/dbd7dd86-c5bb-4cfe-a62f-ed6c605c923f")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15396,7 +15394,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/533d8913-97e1-4731-b75c-3ddc78a01068")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15610,7 +15608,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b736d923-0501-49dd-b1d0-8ab214d53ce7")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15824,7 +15822,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/359b71df-49e7-49f8-b1c6-ba2c1317652f")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16061,7 +16059,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9670ee35-a702-441e-8bb6-93d5f44f6aaf")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16308,7 +16306,7 @@
 		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/b3c370fc-9c97-4dfa-8e2b-303d7653f4c2")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16599,7 +16597,7 @@
 		)
 		(property ki_fp_filters "Jack*XLR*")
 		(path "/b6f5926b-2190-44a5-b83f-c9776a08a5b6")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(zone_connect 2)
 		(fp_circle
@@ -16797,7 +16795,7 @@
 		)
 		(property ki_fp_filters "SW5_PEC11R-4225F-S0024_BRN")
 		(path "/53727a3b-10bd-459a-b750-6173e2880017")
-		(sheetname "Root")
+		(sheetname "Rotark")
 		(sheetfile "solderingStationPCB.kicad_sch")
 		(attr smd)
 		(fp_line

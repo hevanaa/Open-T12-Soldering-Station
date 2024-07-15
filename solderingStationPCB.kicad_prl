@@ -76,7 +76,7 @@
   },
   "meta": {
     "filename": "solderingStationPCB.kicad_prl",
-    "version": 4
+    "version": 3
   },
   "net_inspector_panel": {
     "col_hidden": [
